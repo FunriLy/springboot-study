@@ -65,4 +65,4 @@ mybatis.type-aliases-package=qg.fangrui.boot.model
 
 
 ### 相应博客地址
-
+spring boot 学习(五) : http://blog.csdn.net/u011244202/article/details/54709060
