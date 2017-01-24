@@ -1,7 +1,8 @@
 ## SpringBoot+MyBatis(xml)+Druid 
 
 #### 前言
-集合了我 SpringBoot+MyBatis+Druid 的学习案例
+集合了我 SpringBoot+MyBatis+Druid 的学习案例！！！
+仅供个人参考！
 
 ### 主要依赖
 ```xml
