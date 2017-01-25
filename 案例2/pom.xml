@@ -22,15 +22,7 @@
       <version>4.12</version>
     </dependency>
 
-
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>fastjson</artifactId>
-      <version>1.2.8</version>
-    </dependency>
-
       <!--springboot-->
-
       <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
@@ -69,52 +61,6 @@
       <version>1.4.1.RELEASE</version>
     </dependency>
 
-      <!-- Springboot 热部署 在运行的时候，修改了代码能自动更新-->
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-devtools</artifactId>
-          <optional>true</optional>
-      </dependency>
-
-      <!--spring-cloud-->
-    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-eureka-server</artifactId>
-      <version>1.1.5.RELEASE</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
-    <dependency>
-      <groupId>org.mybatis.spring.boot</groupId>
-      <artifactId>mybatis-spring-boot-starter</artifactId>
-      <version>1.1.1</version>
-    </dependency>
-
-    <!--Druid-->
-      <dependency>
-          <groupId>com.alibaba</groupId>
-          <artifactId>druid</artifactId>
-          <version>1.0.20</version>
-      </dependency>
-
-    <!--mysql驱动-->
-      <dependency>
-          <groupId>mysql</groupId>
-          <artifactId>mysql-connector-java</artifactId>
-          <version>5.1.38</version>
-          <scope>runtime</scope>
-      </dependency>
-
-    <!--jersey-server-->
-    <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server -->
-    <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
-      <artifactId>jersey-server</artifactId>
-      <version>2.22.2</version>
-    </dependency>
-    <!--jersey-server-->
-
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter</artifactId>
@@ -133,19 +79,6 @@
       </dependency>
 
   </dependencies>
-  <!-- Package as an executable jar -->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Brixton.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
   <build>
     <finalName>myspringboot</finalName>
     <plugins>
