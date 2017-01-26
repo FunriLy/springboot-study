@@ -59,4 +59,4 @@
 logging.config=classpath:log4j2.xml
 
 ### 相应博客地址
-spring boot 学习(六) :
+spring boot 学习(六) : http://blog.csdn.net/u011244202/article/details/54730374
