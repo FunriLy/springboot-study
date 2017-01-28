@@ -22,4 +22,4 @@
 无(默认配置即可)
 
 ### 相应博客地址
-spring boot 学习(七) :
+spring boot 学习(七) : http://blog.csdn.net/u011244202/article/details/54744996
