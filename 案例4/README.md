@@ -13,8 +13,8 @@
 **cron、fixedDelay、fixedRate 三者之间不能共存！！！**
 
 ### 官方文档
-实例文档 : http://spring.io/guides/gs/scheduling-tasks/
-注解文档 : http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html
+*  实例文档 : http://spring.io/guides/gs/scheduling-tasks/
+*  注解文档 : http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html
 
 ### 相应博客地址
-spring boot 学习(八) :
+spring boot 学习(八) : http://blog.csdn.net/u011244202/article/details/54767268

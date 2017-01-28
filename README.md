@@ -17,4 +17,4 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 博客地址 : http://blog.csdn.net/u011244202/article/details/54744996
 
 #### 案例4 : SpringBoot 利用 `@Scheduled` 创建定时任务
-博客地址 : 
+博客地址 : http://blog.csdn.net/u011244202/article/details/54767268
