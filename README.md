@@ -15,3 +15,6 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 
 #### 案例3 : 自定义注解+拦截器 解决表单重复提交
 博客地址 : http://blog.csdn.net/u011244202/article/details/54744996
+
+#### 案例4 : SpringBoot 利用 `@Scheduled` 创建定时任务
+博客地址 : 
