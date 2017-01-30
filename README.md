@@ -18,3 +18,6 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 
 #### 案例4 : SpringBoot 利用 `@Scheduled` 创建定时任务
 博客地址 : http://blog.csdn.net/u011244202/article/details/54767268
+
+#### 案例5 : 自定义注解+拦截器 ？秒防刷新
+博客地址 : http://blog.csdn.net/u011244202/article/details/54783337
