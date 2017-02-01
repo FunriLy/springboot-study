@@ -21,3 +21,6 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 
 #### 案例5 : 自定义注解+拦截器 ？秒防刷新
 博客地址 : http://blog.csdn.net/u011244202/article/details/54783337
+
+#### 案例6 : 发送文本邮件、html邮件、带附件邮件、带静态资源邮件、引擎模板邮件
+博客地址 : http://blog.csdn.net/u011244202/article/details/54809696
