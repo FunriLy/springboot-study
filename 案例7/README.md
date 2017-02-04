@@ -7,4 +7,4 @@
 @Async所修饰的函数不要定义为static类型，这样异步调用不会生效。
 
 ### 相应博客地址
-spring boot 学习(十一) :
+spring boot 学习(十一) : http://blog.csdn.net/u011244202/article/details/54864528
