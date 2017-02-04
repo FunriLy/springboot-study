@@ -24,3 +24,6 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 
 #### 案例6 : 发送文本邮件、html邮件、带附件邮件、带静态资源邮件、引擎模板邮件
 博客地址 : http://blog.csdn.net/u011244202/article/details/54809696
+
+#### 案例7 : SpringBoot 利用 `@Async` 实现异步调用
+博客地址 : http://blog.csdn.net/u011244202/article/details/54864528
