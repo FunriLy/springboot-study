@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="qg.fangrui.boot.dao.UserDao">
+    <!--目的：为Dao接口方法提供SQL语句-->
+
+    <!--映射实体对象-->
+    <resultMap id="UserResultMap" type="qg.fangrui.boot.model.User">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="age" column="age" />
+    </resultMap>
+
+
+    <insert id="insertUser" >
+        INSERT INTO users(name, age)
+        VALUES (#{user.name}, #{user.age})
+    </insert>
+
+    <select id="findByName" resultType="User">
+        SELECT * FROM users WHERE name = #{name}
+    </select>
+
+</mapper>

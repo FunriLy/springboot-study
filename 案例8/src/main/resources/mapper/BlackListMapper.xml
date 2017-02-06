@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="qg.fangrui.boot.dao.BlackListDao">
+    <!--目的：为Dao接口方法提供SQL语句-->
+
+    <!--映射实体对象-->
+    <resultMap id="BlackListResultMap" type="qg.fangrui.boot.model.BlackList">
+        <id property="id" column="id" />
+        <result property="ip" column="ip" />
+        <result property="iptime" column="iptime" />
+    </resultMap>
+
+
+    <insert id="addBlackList" >
+        INSERT INTO blacklist(ip, iptime)
+        VALUES (#{blackList.ip}, #{blackList.iptime})
+    </insert>
+
+    <select id="findByIp" resultType="BlackList">
+        SELECT * FROM blacklist WHERE ip = #{name}
+    </select>
+
+</mapper>
