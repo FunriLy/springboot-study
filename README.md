@@ -30,3 +30,6 @@ SPRING 官网提供了一个小工具帮助我们快速完成一个 spring boot 
 
 #### 案例8 : SpringBoot 拦截器实现IP黑名单
 博客地址 : http://blog.csdn.net/u011244202/article/details/54895038
+
+#### 案例9 : SpringBoot + EhCache 2.x
+博客地址 : http://blog.csdn.net/u011244202/article/details/55667868
