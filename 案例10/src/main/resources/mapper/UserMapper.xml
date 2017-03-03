@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="qg.fangrui.springboot.dao.UserDao">
+    <!--目的：为Dao接口方法提供SQL语句-->
+
+    <!--映射实体对象-->
+    <resultMap id="UserResultMap" type="qg.fangrui.springboot.model.User">
+        <id property="uuid" column="uuid" />
+        <result property="name" column="name" />
+        <result property="age" column="age" />
+    </resultMap>
+
+
+    <insert id="save">
+        INSERT INTO rusers(name, age, uuid)
+        VALUES (#{ruser.name}, #{ruser.age}, #{ruser.uuid})
+    </insert>
+
+    <select id="findByUuid" resultType="User">
+        SELECT * FROM rusers WHERE uuid = #{uuid}
+    </select>
+
+    <delete id="delete">
+        DELETE FROM rusers WHERE uuid = #{uuid}
+    </delete>
+
+    <update id="update">
+        UPDATE rusers
+        SET name=#{ruser.name}, age=#{ruser.age}
+        WHERE uuid=#{ruser.uuid}
+    </update>
+
+</mapper>
