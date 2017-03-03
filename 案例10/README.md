@@ -67,4 +67,4 @@ spring.redis.timeout=0
 `maxInactiveIntervalInSeconds`:设置Session失效时间。使用Redis Session之后，原Boot的server.session.timeout属性不再生效
 
 ### 相应博客地址
-spring boot 学习(十四) : 
+spring boot 学习(十四) : http://blog.csdn.net/u011244202/article/details/60154444
