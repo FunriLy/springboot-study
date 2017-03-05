@@ -1,4 +1,4 @@
-﻿## springboot 1.4.1.RELEASE + Redis + 
+﻿## springboot 1.4.1.RELEASE + Redis + SpringSession(实现多账户)
 
 ### SpringBoot 缓存
 在 Spring Boot中，通过`@EnableCaching`注解自动化配置合适的缓存管理器（CacheManager），Spring Boot根据下面的顺序去侦测缓存提供者：
